@@ -6,7 +6,7 @@ Atualmente foco em Data Analysis, BI, IA aplicada a negócios e NLP para automa�
 
 📍 Brasília – DF
 📧 anaisabelassuncaoap@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/ana-isabel-assun%C3%A7%C3%A3o-576001322/
+🔗 LinkedIn: https://www.linkedin.com/in/ana-isabel-assuncao-ap/
 🔗 Portfólio Notion: [link quando criarmos]
 
 🚀 Projetos
