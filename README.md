@@ -1,7 +1,7 @@
 # portfolio-ana-assuncao
-📊 Portfólio de Dados & Inteligência Artificial — Ana Assunção
+📊 Portfólio de Dados & Inteligência Artificial
 
-Bem-vindo(a)! Sou Ana Assunção, profissional em transição para Dados & IA, com sólida experiência em análise operacional, otimização de processos e tomada de decisão.
+Bem-vindo(a)! Sou Ana Isabel Assunção, profissional em transição para Dados & IA, com sólida experiência em análise operacional, otimização de processos e tomada de decisão.
 Atualmente foco em Data Analysis, BI, IA aplicada a negócios e NLP para automação.
 
 📍 Brasília – DF
