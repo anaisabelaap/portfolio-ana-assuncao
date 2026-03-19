@@ -65,7 +65,7 @@ The pipeline outputs a clean JSON file designed for downstream use — feeding i
 
 ## Sample Output
 
-Real output from analyzing PL 2338/2023 (see `resultado_pl.json`):
+Real output from analyzing PL 2338/2023 (see `data/resultado_pl.json`):
 
 **Category:** `Tecnologia e Inovação`
 
