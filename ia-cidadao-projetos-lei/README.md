@@ -44,6 +44,8 @@ ia-cidadao-projetos-lei/
 │   └── resultado_pl.json     ← Analysis output (real API run)
 └── requirements.txt
 
+```
+
 **Note:** PDF and extracted text files are not included in this repository. Download any bill from camara.leg.br and run extract_text.py to generate them.
 
 ---
