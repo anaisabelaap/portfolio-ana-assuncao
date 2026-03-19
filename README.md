@@ -1,54 +1,104 @@
-# portfolio-ana-assuncao
-📊 Portfólio de Dados & Inteligência Artificial
+# 📊 Ana Isabel Assunção — Data & AI Portfolio
 
-Bem-vindo(a)! Sou Ana Isabel Assunção, profissional em transição para Dados & IA, com sólida experiência em análise operacional, otimização de processos e tomada de decisão.
-Atualmente foco em Data Analysis, BI, IA aplicada a negócios e NLP para automação.
+Data Analyst and AI professional transitioning from a gastronomy background into 
+data-driven roles. I combine operational experience (food cost, inventory, demand 
+forecasting) with technical skills in Python, NLP, and Business Intelligence.
 
-📍 Brasília – DF
-📧 anaisabelassuncaoap@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/ana-isabel-assuncao-ap/
-🔗 Portfólio Notion: [link quando criarmos]
+Currently completing an **MBA in Data Science & AI**.
 
-🚀 Projetos
-1. ChefBot — IA para Redução de Desperdício (Projeto Final do MBA)
+📍 Brasília – DF, Brazil  
+📧 anaisabelassuncaoap@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/ana-isabel-assuncao-ap/)
 
-📁 /chefbot-mba
+---
 
-Projeto completo envolvendo NLP, recomendação, KPIs e arquitetura de IA.
+## 🚀 Projects
 
-Observação: Parte dos códigos é simulada, pois o projeto foi construído com foco acadêmico e conceitual.
+### 1. ChefBot — AI-Powered Recipe Recommendation for Food Waste Reduction
+📁 [`/chefbot-mba`](./chefbot-mba)
 
-Tecnologias: Python, Pandas, spaCy, MongoDB, Power BI, Agile
+**Problem:** Households and food businesses waste significant amounts of ingredients 
+due to poor meal planning. There was no accessible, intelligent tool to suggest 
+recipes based on ingredients already available.
 
-2. IA para o Cidadão — Analisador Automático de Projetos de Lei
+**Solution:** Built a conversational assistant that takes a list of available 
+ingredients and recommends recipes, reducing waste and improving kitchen efficiency. 
+Integrated with WhatsApp Business API for accessibility.
 
-📁 /ia-cidadao-projetos-lei
+**Technical highlights:**
+- NLP pipeline using **spaCy** for ingredient extraction from free text
+- **TF-IDF + cosine similarity** for recipe matching
+- **LangChain** for conversational flow management
+- **MongoDB** for recipe and interaction storage
+- **Power BI** dashboard tracking usage KPIs and food waste metrics
+- **WhatsApp Business API** as the user interface
 
-Sistema que lê Projetos de Lei, resume, classifica o tema e facilita a compreensão por cidadãos.
+**Results:** Demonstrated potential to reduce food waste by surfacing forgotten 
+ingredients; designed for scale in cloud environments.
 
-Tecnologias: Python, NLP, modelos de linguagem, Streamlit (opcional)
+> ⚠️ Note: Some code is simulated for academic purposes. Architecture and logic 
+> reflect a production-ready design.
 
-3. Recomendador de Vagas (NLP + Similaridade)
+**Stack:** Python · spaCy · TF-IDF · LangChain · MongoDB · Power BI · WhatsApp API
 
-📁 /recomendador-de-vagas
+---
 
-Sistema simples que compara descrições de vagas com o perfil do candidato e sugere as melhores opções.
+### 2. IA para o Cidadão — Legislative Bill Analyzer
+📁 [`/ia-cidadao-projetos-lei`](./ia-cidadao-projetos-lei)
 
-Tecnologias: Python, Scikit-Learn, TF-IDF, NLP
+**Problem:** Brazilian legislative bills (Projetos de Lei) are dense, technical 
+documents that most citizens cannot easily understand or track.
 
-4. Dashboard de Vendas e Margens (Power BI)
+**Solution:** A Python tool that ingests PDF bills from the Chamber of Deputies, 
+extracts and summarizes content using GPT-4o, classifies the bill by topic 
+(education, health, economy, etc.), and presents findings in plain language.
 
+**Technical highlights:**
+- **pdfplumber** for PDF text extraction
+- **OpenAI API (GPT-4o)** with custom prompt engineering for summarization and 
+  topic classification
+- Structured JSON output for downstream use
+- Optional **Streamlit** interface for non-technical users
 
-🛠️ Stack
+**Stack:** Python · pdfplumber · OpenAI API · GPT-4o · Prompt Engineering · Streamlit
 
-Python • Pandas • Power BI • spaCy • Scikit-Learn
+---
 
-Git & GitHub • Notion • Trello
+### 4. Sales & Margin Dashboard (Power BI)
+📁 `/powerbi-sales-dashboard` *(in progress)*
 
-IA aplicada a negócios e automações
+**Coming soon.** This project will demonstrate end-to-end BI analysis using SQL 
+for data extraction and Power BI for visualization, focused on sales performance, 
+margin analysis, and actionable KPIs for business decision-making.
 
-🌱 Objetivo
+---
 
-Seguir carreira em Análise de Dados, BI, Data Assistant ou IA Aplicada, construindo projetos reais que gerem impacto.
+## 🛠️ Tech Stack
 
-✨ Obrigada por visitar meu portfólio!
+| Area | Tools |
+|---|---|
+| Languages | Python, SQL |
+| Data & Analysis | Pandas, NumPy, Scikit-Learn |
+| NLP | spaCy, NLTK, TF-IDF, LangChain |
+| AI / LLMs | OpenAI API, GPT-4o, Prompt Engineering |
+| Visualization | Power BI |
+| Databases | MongoDB, SQL |
+| APIs | WhatsApp Business API, OpenAI API |
+| Tools | Git, GitHub, Notion, Streamlit |
+
+---
+
+## 🌱 About Me
+
+I bring a unique perspective to data work: years of professional experience in 
+gastronomy gave me hands-on exposure to operational metrics — food cost percentage, 
+inventory turnover, demand seasonality — before I ever opened a Jupyter notebook. 
+That background informs how I think about data: not just technically, but in terms 
+of real business impact.
+
+I'm currently seeking roles in **Data Analysis, BI, or Applied AI**, with a 
+preference for teams that value curiosity and cross-domain thinking.
+
+---
+
+*Thanks for visiting! Feel free to reach out.*
