@@ -64,25 +64,7 @@ extracts and summarizes content using GPT-4o, classifies the bill by topic
 
 ---
 
-### 3. Job Match Recommender — NLP-Based Vacancy Similarity
-📁 [`/recomendador-de-vagas`](./recomendador-de-vagas)
-
-**Problem:** Job seekers often apply to poorly matched vacancies because manual 
-comparison of their profile against job descriptions is slow and subjective.
-
-**Solution:** A similarity engine that takes a candidate's resume/profile text and 
-ranks job vacancies by relevance, using TF-IDF vectorization and cosine similarity.
-
-**Technical highlights:**
-- Text preprocessing with **NLTK** (stopword removal, lemmatization)
-- **TF-IDF vectorization** with Scikit-Learn
-- Ranked output with similarity scores
-
-**Stack:** Python · Scikit-Learn · TF-IDF · NLTK · Pandas
-
----
-
-### 4. Sales & Margin Dashboard (Power BI)
+### 3. Sales & Margin Dashboard (Power BI)
 📁 `/powerbi-sales-dashboard` *(in progress)*
 
 **Coming soon.** This project will demonstrate end-to-end BI analysis using SQL 
