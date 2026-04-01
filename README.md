@@ -4,7 +4,7 @@ Data Analyst and AI professional transitioning from a gastronomy background into
 data-driven roles. I combine operational experience (food cost, inventory, demand 
 forecasting) with technical skills in Python, NLP, and Business Intelligence.
 
-Currently completing an **MBA in Data Science & AI**.
+ **MBA in Data Science & AI**.
 
 📍 Brasília – DF, Brazil  
 📧 anaisabelassuncaoap@gmail.com  
