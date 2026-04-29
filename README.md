@@ -14,7 +14,45 @@ forecasting) with technical skills in Python, NLP, and Business Intelligence.
 
 ## 🚀 Projects
 
-### 1. ChefBot — AI-Powered Recipe Recommendation for Food Waste Reduction
+### 1. Restaurant Analytics — SQL & Business Intelligence
+📁 [`/restaurant-analytics`](./restaurant-analytics)
+
+> **⚠️ Status: Work in Progress** (SQL Analysis Complete | Dashboard in Development)
+
+**Problem:** Standard restaurant reports often focus only on total revenue, hiding critical leaks like high food waste or low-margin "best-sellers" that actually lose money.
+
+**Solution:** A deep-dive analysis of 6 months of operational data. Using PostgreSQL, I built a pipeline to classify the menu using the **Menu Engineering Matrix** and identify the financial impact of food waste.
+
+**Technical highlights:**
+- **SQL Engineering:** Complex CTEs and Window Functions for trend analysis and share-of-total calculations.
+- **Menu Engineering:** Automated classification of items into *Stars, Plowhorses, Puzzles,* and *Dogs*.
+- **Synthetic Data Generation:** Python script (`psycopg2`) to simulate realistic Brazilian restaurant patterns (seasonality, margins, and waste reasons).
+- **Business Insights:** Translation of SQL results into actionable inventory and pricing recommendations.
+
+---
+
+### 2. IA para o Cidadão — Legislative Bill Analyzer
+📁 [`/ia-cidadao-projetos-lei`](./ia-cidadao-projetos-lei)
+
+**Problem:** Brazilian legislative bills (Projetos de Lei) are dense, technical 
+documents that most citizens cannot easily understand or track.
+
+**Solution:** A Python tool that ingests PDF bills from the Chamber of Deputies, 
+extracts and summarizes content using GPT-4o, classifies the bill by topic 
+(education, health, economy, etc.), and presents findings in plain language.
+
+**Technical highlights:**
+- **pdfplumber** for PDF text extraction
+- **OpenAI API (GPT-4o)** with custom prompt engineering for summarization and 
+  topic classification
+- Structured JSON output for downstream use
+- Optional **Streamlit** interface for non-technical users
+
+**Stack:** Python · pdfplumber · OpenAI API · GPT-4o · Prompt Engineering · Streamlit
+
+---
+
+### 3. ChefBot — AI-Powered Recipe Recommendation for Food Waste Reduction
 📁 [`/chefbot-mba`](./chefbot-mba)
 
 **Problem:** Households and food businesses waste significant amounts of ingredients 
@@ -40,36 +78,6 @@ ingredients; designed for scale in cloud environments.
 > reflect a production-ready design.
 
 **Stack:** Python · spaCy · TF-IDF · LangChain · MongoDB · Power BI · WhatsApp API
-
----
-
-### 2. IA para o Cidadão — Legislative Bill Analyzer
-📁 [`/ia-cidadao-projetos-lei`](./ia-cidadao-projetos-lei)
-
-**Problem:** Brazilian legislative bills (Projetos de Lei) are dense, technical 
-documents that most citizens cannot easily understand or track.
-
-**Solution:** A Python tool that ingests PDF bills from the Chamber of Deputies, 
-extracts and summarizes content using GPT-4o, classifies the bill by topic 
-(education, health, economy, etc.), and presents findings in plain language.
-
-**Technical highlights:**
-- **pdfplumber** for PDF text extraction
-- **OpenAI API (GPT-4o)** with custom prompt engineering for summarization and 
-  topic classification
-- Structured JSON output for downstream use
-- Optional **Streamlit** interface for non-technical users
-
-**Stack:** Python · pdfplumber · OpenAI API · GPT-4o · Prompt Engineering · Streamlit
-
----
-
-### 3. Sales & Margin Dashboard (Power BI)
-📁 `/powerbi-sales-dashboard` *(in progress)*
-
-**Coming soon.** This project will demonstrate end-to-end BI analysis using SQL 
-for data extraction and Power BI for visualization, focused on sales performance, 
-margin analysis, and actionable KPIs for business decision-making.
 
 ---
 
