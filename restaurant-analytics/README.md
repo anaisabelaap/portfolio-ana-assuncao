@@ -27,6 +27,7 @@ restaurant_analytics/
 ├── 01_restaurant_analysis.sql # Full analysis: revenue, profitability, menu engineering, waste
 ├── insights.md                # Key findings and recommendations from the analysis
 ├── .env.example               # Environment variable template (copy to .env and fill in)
+├── dashboard.pbix             # Power BI dashboard (in Progress)
 └── README.md
 ```
 
