@@ -64,6 +64,9 @@ Legislative bills can be very long. GPT-4o-mini offers a 128k context window at 
 **Why structured JSON output?**  
 The pipeline outputs a clean JSON file designed for downstream use — feeding into a Streamlit dashboard, a database, or an API response. The structure is consistent regardless of which bill is analyzed.
 
+**Why Streamlit?** 
+To make the project accessible to non-technical users and recruiters, a Streamlit interface was added. It includes a **Demo Mode** to showcase functionality without requiring immediate API credentials.
+
 ---
 
 ## Sample Output
@@ -94,7 +97,10 @@ echo "OPENAI_API_KEY=your-key-here" > .env
 # Extract text from a PDF bill
 python -m src.extract_text data/PL2338_2023.pdf -o data/out_texts/
 
-# Run the analysis notebook
+# Run the Streamlit App
+streamlit run app.py
+
+# or run the analysis notebook
 jupyter notebook analise_pl.ipynb
 ```
 
@@ -102,4 +108,4 @@ jupyter notebook analise_pl.ipynb
 
 ## Stack
 
-`Python` · `pdfplumber` · `OpenAI API (GPT-4o-mini)` · `Prompt Engineering` · `python-dotenv` · `JSON`
+`Python` · `pdfplumber` · `OpenAI API (GPT-4o-mini)` · `Prompt Engineering` · `python-dotenv` · `JSON` · `Streamlit`
