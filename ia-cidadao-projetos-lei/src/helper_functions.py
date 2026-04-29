@@ -13,7 +13,6 @@ from openai import OpenAI
 
 # ── Environment setup ──────────────────────────────────────────────────────────
 load_dotenv(find_dotenv())
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 MODEL = "gpt-4o-mini"
 TEMPERATURE = 0.0
@@ -32,6 +31,9 @@ def get_llm_response(prompt: str, system_message: str | None = None) -> str:
     Returns:
         The model's text response.
     """
+
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    
     if system_message is None:
         system_message = (
             "Você é um analista legislativo especializado em políticas públicas "
