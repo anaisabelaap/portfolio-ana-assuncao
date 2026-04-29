@@ -1,5 +1,7 @@
 # Restaurant Analytics
 
+> **⚠️ Status: Work in Progress (WIP)** > This project is currently under development. The data structure and SQL analyses are complete, and the interactive dashboard is in the final stages of development.
+
 A SQL-based portfolio project simulating six months of operational data from a Brazilian restaurant (July–December 2024). The goal was to move beyond simple revenue reporting and explore what the data actually reveals about menu profitability, product performance, and food waste cost.
 
 The dataset was generated synthetically using realistic Brazilian restaurant patterns — pricing margins, day-of-week demand multipliers, typical meal periods, and ingredient cost structures.
